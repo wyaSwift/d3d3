@@ -1,4 +1,4 @@
-local scriptURL = "https://raw.githubusercontent.com/wyaSwift/d3d3/refs/heads/main/f"
+local scriptURL = "https://raw.githubusercontent.com/wyaSwift/d3d3/refs/heads/main/que"
 
 -- Queue the script on teleport
 if syn and syn.queue_on_teleport then
